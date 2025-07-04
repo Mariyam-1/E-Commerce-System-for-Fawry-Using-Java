@@ -38,6 +38,18 @@ This is a simple Java-based object-oriented **E-commerce System** designed as pa
 - `ShoppingCart`: Manages products and quantities
 - `CheckOut`: Processes the order, handles logic for expiration, stock, shipping, and billing
 
+## 🧩 Error Handling
+
+The system includes structured error handling:
+
+- **Empty Cart**: Prevents checkout
+- **Out of Stock**: Throws clear error
+- **Expired Products**: Validates expiration at checkout
+- **Insufficient Balance**: Checks balance before processing
+- **Non-Shippable Products**: Skips shipping with warning
+
+## Project Structure 
+```
 src/
 ├── Interfaces/
 │ ├── Expirable.java
@@ -51,15 +63,7 @@ src/
 ├── ShoppingCart.java
 ├── CheckOut.java
 └── ECommerceSystem.java
-## 🧩 Error Handling
-
-The system includes structured error handling:
-
-- **Empty Cart**: Prevents checkout
-- **Out of Stock**: Throws clear error
-- **Expired Products**: Validates expiration at checkout
-- **Insufficient Balance**: Checks balance before processing
-- **Non-Shippable Products**: Skips shipping with warning
+```
 
 ---
 
