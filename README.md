@@ -15,6 +15,9 @@ This is a simple Java-based object-oriented **E-commerce System** designed as pa
 - ✅ Generate detailed checkout receipts
 
 ---
+## 📊 UML Diagram
+
+![Uml](https://github.com/user-attachments/assets/31d9ffcc-3ee2-46ed-b9dc-ac32b5f3f1e5)
 
 ## 🧱 Class Structure
 
