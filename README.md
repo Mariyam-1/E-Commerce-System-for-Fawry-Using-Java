@@ -20,6 +20,23 @@ This is a simple Java-based object-oriented **E-commerce System** designed as pa
 ![Uml](https://github.com/user-attachments/assets/31d9ffcc-3ee2-46ed-b9dc-ac32b5f3f1e5)
 
 ---
+##  📁 Project Structure 
+```
+src/
+├── Interfaces/
+│ ├── Expirable.java
+│ └── Shippable.java
+├── Products/
+│ ├── Products.java
+│ ├── ExpirableShippableProducts.java
+│ ├── NonShippableProducts.java
+│ └── ShippableNonExpirableProducts.java
+├── Customer.java
+├── ShoppingCart.java
+├── CheckOut.java
+└── ECommerceSystem.java <-- Contains the main method
+```
+
 ## 🧱 Class Structure
 
 
@@ -48,22 +65,6 @@ The system includes structured error handling:
 - **Insufficient Balance**: Checks balance before processing
 - **Non-Shippable Products**: Skips shipping with warning
 
-## Project Structure 
-```
-src/
-├── Interfaces/
-│ ├── Expirable.java
-│ └── Shippable.java
-├── Products/
-│ ├── Products.java
-│ ├── ExpirableShippableProducts.java
-│ ├── NonShippableProducts.java
-│ └── ShippableNonExpirableProducts.java
-├── Customer.java
-├── ShoppingCart.java
-├── CheckOut.java
-└── ECommerceSystem.java
-```
 
 ---
 
