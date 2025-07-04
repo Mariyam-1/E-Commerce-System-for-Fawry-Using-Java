@@ -1,3 +1,40 @@
-# E-Commerce-System-for-Fawry-Using-Java
-This Java-based e-commerce system simulates a simple online store with core functionalities like product management, cart operations, shipping logic, and checkout.
-https://www.planttext.com?text=XLJBReCm4Bpp5UwDA8yFG56KDkgXKfMcog5dOxPW5J2rrrBJflzU6-8Df7daH6PdTiQ3nT8WrsYhCegMz7Y71LJ0n2vLEeyYMIFeTow0RGlPD3mjWVr4pFt6EU0RoBp0U9ImJ5atYdxxYiUlHkg-GfeMWimhKgLAuBMNY98RmpPQPLQWER2dDQyWOLlKiiuxfD5I07crqAVbDKhS9SpvKgwratgFdjZ36w_lfGtuws697z6Q38G6Re26RZ8wfbrPWwe2VJbjoajUd-JrRWyTVfeZ-8LnD-ivRWlLD6xxohsfu2eHAfEmPsbm7lfRTFjubiK1ch0s_B675hx7zam9DV-l469GAuANmfOSOMjJLCZBCtNIJNdowJoXpKVm8Q2Htp1eNBZxeED-nmM8ZnSRJZiM_h-o68Vo9uDIUagwUcHAP-m8QrLV6X7kEBI7E15Tq_b-EhrcD2IUDHnIRXXVjcApsNvnb4TN5vsIRwsbkVjAG9srdulmz0S0
+# 🛒 E-commerce System – Fawry Internship Challenge
+
+This is a simple Java-based object-oriented **E-commerce System** designed as part of the **Fawry Full Stack Development Internship** challenge. It demonstrates OOP principles like **inheritance**, **polymorphism**, **encapsulation**, and **interface segregation** while modeling real-world shopping and shipping behavior.
+
+---
+
+## 📦 Features
+
+- ✅ Add products to cart
+- ✅ Handle product expiration
+- ✅ Support for shippable and non-shippable products
+- ✅ Calculate subtotal and shipping fees
+- ✅ Prevent checkout of expired or out-of-stock products
+- ✅ Handle insufficient balance gracefully
+- ✅ Generate detailed checkout receipts
+
+---
+
+## 🧱 Class Structure
+
+
+### Product Types
+- `Products`: Abstract base class with shared attributes like name, price, quantity
+- `ExpirableShippableProducts`: Products that can expire and require shipping (e.g., Cheese)
+- `NonShippableProducts`: Non-expirable and not shippable (e.g., Mobile Scratch Cards)
+- `ShippableNonExpirableProducts`: Durable goods requiring shipping (e.g., TV)
+
+### Interfaces
+- `Shippable`: Requires `getWeight()` method
+- `Expirable`: Requires `isExpired()` method
+
+### System Classes
+- `Customer`: Holds name and balance
+- `ShoppingCart`: Manages products and quantities
+- `CheckOut`: Processes the order, handles logic for expiration, stock, shipping, and billing
+
+---
+
+## 📂 Project Structure
+
