@@ -17,6 +17,7 @@ This is a simple Java-based object-oriented **E-commerce System** designed as pa
 ---
 ## 📸Screenshot from Running App 
 ![Screenshot 2025-07-09 022422](https://github.com/user-attachments/assets/45eb593c-b1cd-4c3b-8271-fdaa75f87946)
+---
 
 ## 📊 UML Diagram
 
